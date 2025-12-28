@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 import NotFound from '../views/NotFound.vue'
 // import HomePages from '@/pages/homePages.vue'
@@ -28,7 +28,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/vix_CI_FE_Dio-Deska-Permana/'),
+  history: createWebHashHistory(),
   routes
 })
 
