@@ -6,10 +6,11 @@ import NotFound from '../views/NotFound.vue'
 
 
 const routes = [
-    // {
-    //     path: '/',
-    //     component: HomePages
-    // },
+    {
+        path: '/',
+        name: 'Home',
+        component: MainPage
+    },
     {
         path: '/:id(\\d+)',
         name: 'Product',
