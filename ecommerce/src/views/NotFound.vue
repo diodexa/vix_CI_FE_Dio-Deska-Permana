@@ -1,7 +1,7 @@
 <template>
     <div class="container" >
         <div class="wrapper card space-between">
-            <img src="/public/sad-face.png" class="icon" />
+            <img src="../assets/sad-face.png" class="icon" />
             <div>
                 <h1>This Product Unavailable to show</h1>
                 <div>

@@ -1,9 +1,8 @@
 <script setup>
 
-    import { computed } from 'vue'
+    import { computed,defineProps  } from 'vue'
 
     const props = defineProps({
-
         rating: {
             type: Number,
             required: true
@@ -60,7 +59,7 @@
         --dot-color: var(--defaultColor);
         display: flex;
         gap: 2px;
-       align-items: center;
+        align-items: center;
     }
 
     .dot {

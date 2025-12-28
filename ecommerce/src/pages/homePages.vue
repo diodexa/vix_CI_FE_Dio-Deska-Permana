@@ -40,7 +40,7 @@ onMounted(async () => {
 </template>
 
 <style>
-    /* .container {
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -124,7 +124,7 @@ onMounted(async () => {
     .card:hover {
         transform: scale(1.1);
         z-index: 2;
-    } */
+    }
 
 
 </style>

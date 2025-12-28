@@ -1,7 +1,6 @@
 <template>
     <div v-if="loading" class="container">
         <div class="wrapper card space-between skeleton">
-            
             <div class="flex-col">
                 <div>
                     <div class="sk-img"></div>
@@ -141,7 +140,7 @@ import StarRating from '../components/StarRating.vue';
         position: absolute;
         inset: 0;
         height: 60%;
-        background-image: url('/bg-pattern.svg');
+        background-image: url('../assets/bg-pattern.svg');
         background-repeat: repeat;
         background-size: cover;
         pointer-events: none;
@@ -156,7 +155,7 @@ import StarRating from '../components/StarRating.vue';
     .wrapper {
         display: flex;
         flex-direction: row;
-        
+        gap: 5px;
     }
 
     .card {
@@ -170,18 +169,19 @@ import StarRating from '../components/StarRating.vue';
         padding: 1rem;
         position: relative;
         z-index: 1;
+        text-align: left;
     }
 
 
     .containerImage {
         min-width: 20vw;   
         max-height: 60vh;
+        height: auto;
         display: flex;
         margin: 5rem;
         align-items: center;       
         justify-content: center;   
         overflow: hidden;
-        height: auto;
     }
 
     .containerImage img {
@@ -205,7 +205,7 @@ import StarRating from '../components/StarRating.vue';
     }
 
     .description {
-        font-size:3rem;
+        font-size:1vw;
         margin-bottom: 10rem;
     }
 
