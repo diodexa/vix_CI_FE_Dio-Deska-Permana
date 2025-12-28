@@ -28,8 +28,8 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
-    routes
+  history: createWebHistory('/vix_CI_FE_Dio-Deska-Permana/'),
+  routes
 })
 
 export default router
