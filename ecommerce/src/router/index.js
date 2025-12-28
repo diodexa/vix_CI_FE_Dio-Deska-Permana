@@ -8,8 +8,7 @@ import NotFound from '../views/NotFound.vue'
 const routes = [
     {
         path: '/',
-        name: 'Home',
-        component: MainPage
+        redirect: '/1'
     },
     {
         path: '/:id(\\d+)',
